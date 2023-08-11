@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-color: #1c1c1c;
+}
+
+.corpo_do_texto{
+    background-color: #444444;
+    border: 35px solid #343434;
+    margin: 15%;
+    margin-top: 10%;
+    padding: 3%;
+}
+
+#numeros{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+h1{
+    color: #dedede;
+    font-size: 50px;
+    font-weight: bolder;
+    padding-top: 1%;
+}
+
+p{
+color: #c7cad4;
+    font-size: 30px;
+    padding: 3%;
+}
+
+#numeros{
+    margin-bottom: 3%;
+}
+
+input[type='number']{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-right: 2%;
+    text-align: center;
+    width: 5%;
+    background-color: #c9c9c9;
+}
+
+input[type='button']{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 1%;
+    width: 15%;
+}
+
+#resposta_ordenada{
+    color: #d3d4db;
+    font-size: 30px;
+    padding-top: 3%;
+}
